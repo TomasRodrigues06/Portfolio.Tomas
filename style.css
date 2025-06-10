@@ -25,6 +25,28 @@ header{
     padding: 40px 4%;
     box-shadow: 0 0 50px 10px #ffffff0e;
 }
+
+.menu-desktop {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.menu-desktop ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.menu-desktop li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu-desktop a {
+    text-decoration: none;
+}
+
  
 header > .interface{
     display: flex;
@@ -341,9 +363,9 @@ section.portfolio .flex{
     position: relative;
 }
 
-.img-port:hover{
+/* .img-port:hover{
     background-position: 100% 100%; 
-}
+} */
 
 .overlay{
     position: absolute;
